@@ -1,0 +1,21 @@
+1. git init
+Esse comando inicializa um novo repositório Git local no diretório atual.
+Ou seja, ele cria uma pasta oculta chamada .git que conterá todos os dados de controle de versão.
+
+2. git config --global user.name "nome"
+Este comando define o nome do usuário que será associado aos commits do Git.
+
+3. git config --global user.email "email"
+Semelhante ao passo anterior, este comando define o e-mail do usuário para os commits.
+
+4. git add nome_projeto
+Este comando adiciona arquivos ou diretórios ao staging area do Git, ou seja, prepara os arquivos para o commit.
+
+5. git commit -m "primeiro commit"
+Cria o primeiro commit, salvando o estado atual dos arquivos adicionados.
+
+6. git remote
+Este comando lista os repositórios remotos conectados ao projeto. Porém, se você ainda não configurou um, ele não mostrará nada.
+
+7. git push
+Envia os commits locais para o repositório remoto (por exemplo, no GitHub).
